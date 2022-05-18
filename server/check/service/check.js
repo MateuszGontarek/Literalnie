@@ -16,6 +16,7 @@ const check = (req) => {
     ]
     // Losowanie hasła po dniu
     const password = wordList[dayOfYear(new Date()) % wordList.length]
+    console.log(password)
     // Wygrana
     if( word.word.toLowerCase() === password) {
         return "Wygrałeś";
