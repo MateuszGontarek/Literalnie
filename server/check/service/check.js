@@ -12,7 +12,16 @@ const check = (req) => {
         'widmo',
         'temat',
         'adamy',
-        'wojna'
+        'wojna',
+        'pedał',
+        'osiem',
+        'kabel',
+        'larwa',
+        'oliwy',
+        'negro',
+        'wólka',
+        'urząd',
+        'czysz'
     ]
     // Losowanie hasła po dniu
     const password = wordList[dayOfYear(new Date()) % wordList.length]
